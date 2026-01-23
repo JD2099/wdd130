@@ -42,7 +42,8 @@ article {
     padding: 8px;
 }
 
-a {
+a,
+.socialmedia a {
     text-decoration: none;
 }
 
