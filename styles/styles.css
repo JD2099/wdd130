@@ -7,10 +7,20 @@
 header {
     font-size: 20px;
     height: 60px;
-    padding: 20px;
+
     text-align: center;
-    color: #fff;
+
     background-color: steelblue;
+}
+
+nav {
+    color: #fff;
+    padding: 20px;
+    display: block;
+}
+
+h1 {
+    color: darkcyan;
 }
 
 a {
@@ -37,6 +47,9 @@ aside img {
 }
 
 main img {
+    border: 2px solid black;
+    box-shadow: #333;
+    padding: 2px;
     width: 150px;
     height: auto;
 }
