@@ -248,7 +248,8 @@ footer p {
     gap: 0.5rem;
 }
 
-.contact-form button {
+.contact-form button,
+.btn {
     margin-top: 1.5rem;
     width: 100%;
     padding: 12px;
@@ -260,7 +261,8 @@ footer p {
     cursor: pointer;
 }
 
-.contact-form button:hover {
+.contact-form button:hover,
+.btn:hover {
     background-color: #072a40;
 }
 
@@ -289,4 +291,75 @@ footer p {
 .employee-gallery figcaption {
     margin-top: 0.5rem;
     font-weight: 600;
+}
+
+/*TRIP*/
+
+/* ===== 3 Images Section ===== */
+.activities {
+    display: grid;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.activity {
+    text-align: center;
+}
+
+.activity img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.activity h3 {
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/* ===== Large Image Section ===== */
+.highlight {
+    position: relative;
+    padding: 20px 0;
+    background-color: #072a40;
+    display: flex;
+    justify-content: center;
+}
+
+.highlight img {
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.highlight-text {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #5f6f64;
+    color: white;
+    padding: 30px;
+    width: 250px;
+}
+
+.highlight-text h2 {
+    margin-top: 0;
+    font-size: 1em;
+}
+
+.highlight-text p {
+    margin-top: 0;
+    font-size: 0.8em;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
 }
